@@ -1,0 +1,8 @@
+task list
+
+- Faire des recherches sur les projet similaire au drone de surveillance baignade
+- Faire des recherches et documenter sur le github drone :
+	* SDK parrot for bebop 2
+	* Android for Raspberry
+	* Android for Python
+	* Compatibilité du SDK parrot avec Linux / Raspbian plutot que IOS / Android

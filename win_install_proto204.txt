@@ -1,0 +1,33 @@
+Liste des installations à faire pour le projet de Proto204 :
+
+# Git :
+- Créer un compte perso GitHub sur https://github.com/ (exemple de nom de compte : "PrenomNom")
+- Créer un repository de test (ex : "+" en haut à droite > new repository)
+- Télécharger sur https://git-scm.com/ le logiciel et l'installer
+- Préféreable : créer un dossier réserver à toutes les synchronisations GitHub le plus proche de la racine d'un disque (ex : c:/git)
+- sur le dossier c:/git créer un fichier de test (ex : fichiertest.txt)
+- Sur la console (ex : Git Bash) faire les action suivante :
+	git config --global user.name "PrenomNom"
+	cd c:/git		// ou autre répertoire de synchro git
+	git clone https://github.com/r0mainC/test.git		// ici le dossier créer sur github s'appelle "test"
+	cd test
+	git add fichiertest.txt		// le fichier fait maitenant partie du repertoire (en local pour l'instant)
+	git commit -m "écrire dans les guillemets un commentaire" fichiertest.txt	// le fichier est prêt à partir sur github
+	git push -u origin master		// synchro sur github
+	
+- pour synchro dans l'autre sens : git pull
+- autre commande utile : git status
+
+
+# Python
+- Installer Anaconda pour python 3.7 : https://www.anaconda.com/distribution/#download-section (verifier que la version corresponde à l'OS)
+- à la fin de l'installation d'Anaconda, choisir d'installer Visual Studio Code
+- Installer cmake qui servira d'interface pour importer les librairies https://cmake.org/download/
+- Télécharger OpenCV 4.0.1 sur https://opencv.org/releases.html et extraire les fichier dans un dossier dédié
+- Sur une console (ex : invite de commande) en mode administrateur (clique droit, exécuter en tant qu'administrateur), executer les commandes suivantes :
+	setx -m OPENCV_DIR C:\<le chemin du dossier extrait d'OpenCV>\Build\X64\VC10
+	setx -m OPENCV_DIR C:\<le chemin du dossier extrait d'OpenCV>\Build\X64\VC11
+
+# Accès au raspberry zero à distance :
+- Avec VNC viewer
+- Avec SSH
