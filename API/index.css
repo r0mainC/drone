@@ -1,0 +1,88 @@
+body
+{
+	background-color: #332b41;
+}
+.card
+{
+	background-color: #baa;
+	display: block;
+	margin: 20px; 
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+}
+.card:hover
+{
+	background-color: #cbb;
+	display: block;
+	margin: 20px; 
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+}
+#container
+{
+	background-color: #edd;
+	display: block;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50px 50px 0px 0px;
+	padding-bottom: : 20px;
+}
+#header
+{
+	display: block;
+	width: 1200px;
+	height: 300px; 
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("drone2.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	border-radius: 50px 50px 0px 0px;
+}
+#header 
+{
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	font-family: "helvetic";
+    font-size: 2em;
+    font-style: italic ;
+    padding-bottom: 80px;
+    
+}
+#menu
+{
+	display: block;
+	background-color: #edd;
+
+}
+.item
+{
+	display: inline-block;
+	background-color: black;
+	color: white; 
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px;
+	margin-right: -4px;
+}
+.item:hover
+{
+	background-color: grey;
+	color: black;
+}
+#selected
+{
+	background-color: #edd;
+	color: black;
+}
+.id
+{
+	display: inline-block;
+	padding: 10px;
+	background-color: #eee;
+	margin: 5px;
+	border-radius: 5px;
+
+
+}
